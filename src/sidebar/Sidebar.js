@@ -7,10 +7,10 @@ export default function Sidebar() {
   return (
     <section className="sidebar">
       <div className="logo-container">
-        <h1 className="logo">
-          LELANN
-          <span className="bookstore">BOOKSTORE</span>
-        </h1>
+        <div className="logo">
+          <h1>LELANN</h1>
+          <h2 className="bookstore">BOOKSTORE</h2>
+        </div>
       </div>
 
       <Grade/>
